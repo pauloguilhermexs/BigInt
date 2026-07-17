@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1757716642 source:c:\users\usuario\documents\bigint_completo\bigint-main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"bigint.h"
+
+1757725720 c:\users\usuario\documents\bigint_completo\bigint.h
+	<iostream>
+	<cstdint>
+	<string>
+
+1757732651 source:c:\users\usuario\documents\bigint_completo\bigint.cpp
+	<iostream>
+	<cmath>
+	<cctype>
+	"bigint.h"
+
+1784318794 source:c:\users\usuario\downloads\bigint_completo (1)\bigint_completo\bigint-main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"bigint.h"
+
+1784318794 c:\users\usuario\downloads\bigint_completo (1)\bigint_completo\bigint.h
+	<iostream>
+	<cstdint>
+	<string>
+
+1784318794 source:c:\users\usuario\downloads\bigint_completo (1)\bigint_completo\bigint.cpp
+	<iostream>
+	<cmath>
+	<cctype>
+	"bigint.h"
+
+1784318794 source:c:\users\usuario\downloads\bigint_completo (1)\bigint\bigint-main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"bigint.h"
+
+1784318794 c:\users\usuario\downloads\bigint_completo (1)\bigint\bigint.h
+	<iostream>
+	<cstdint>
+	<string>
+
+1784324069 source:c:\users\usuario\downloads\bigint_completo (1)\bigint\bigint.cpp
+	<iostream>
+	<cmath>
+	<cctype>
+	"bigint.h"
+
