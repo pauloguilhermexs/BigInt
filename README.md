@@ -1,6 +1,6 @@
 # BigInt - Arbitrary Precision Integer Library
 
-A lightweight, high-performance C++ class designed to represent and perform arithmetic operations on integers with an unlimited number of digits (arbitrary precision). This project was developed as an academic assignment for the Department of Computer Engineering and Automation (DCA) at the Federal University of Rio Grande do Norte (UFRN).
+A lightweight, high-performance C++ class designed to represent and perform arithmetic operations on integers with an unlimited number of digits (arbitrary precision). 
 
 ## 🚀 Features
 
