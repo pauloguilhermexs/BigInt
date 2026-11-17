@@ -2,7 +2,7 @@
 
 A lightweight, high-performance C++ class designed to represent and perform arithmetic operations on integers with an unlimited number of digits (arbitrary precision). 
 
-## 🚀 Features
+##  Features
 
 - **Unlimited Precision:** Handles positive, negative, and zero values with as many digits as your system's memory allows.
 - **Dynamic Memory Management:** Uses low-level raw pointers (`new[]` and `delete[]`) rather than standard containers to handle digits dynamically and efficiently.
@@ -12,12 +12,12 @@ A lightweight, high-performance C++ class designed to represent and perform arit
 
 ---
 
-## 🛠️ Architecture & Constraints
+##  Architecture & Constraints
 
 To strictly satisfy the strict pedagogical constraints of the course, this library is built **without** advanced modern C++ abstractions:
-- 🚫 **No STL Containers/Algorithms:** Absolutely no `std::vector`, `std::list`, `std::copy`, etc.
-- 🚫 **No Exceptions:** Error handling is managed via stream states (`ios::failbit`) and safe warnings on `std::cerr`.
-- 🚫 **No Templates/Inheritance:** Focused purely on clean object-oriented design and raw memory manipulation.
+-  **No STL Containers/Algorithms:** Absolutely no `std::vector`, `std::list`, `std::copy`, etc.
+-  **No Exceptions:** Error handling is managed via stream states (`ios::failbit`) and safe warnings on `std::cerr`.
+-  **No Templates/Inheritance:** Focused purely on clean object-oriented design and raw memory manipulation.
 
 ### Internal Representation
 Each `BigInt` instance is comprised of three core attributes:
@@ -25,11 +25,11 @@ Each `BigInt` instance is comprised of three core attributes:
 - `int nDig`: The precise count of digits currently stored ($\ge 1$).
 - `int8_t* d`: A raw dynamic array containing the digits (values `0` through `9`).
 
-> ⚠️ **Note:** Digits are stored in **reverse order** (the least significant digit is at `d[0]`) to simplify the implementation of manual arithmetic pipelines (like carry and borrow steps).
+>  **Note:** Digits are stored in **reverse order** (the least significant digit is at `d[0]`) to simplify the implementation of manual arithmetic pipelines (like carry and borrow steps).
 
 ---
 
-## ⚙️ Supported Operations
+##  Supported Operations
 
 | Operator / Method | Description |
 | :--- | :--- |
@@ -44,7 +44,7 @@ Each `BigInt` instance is comprised of three core attributes:
 
 ---
 
-## 💻 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - A modern C++ compiler supporting at least **C++11** (e.g., `g++` or `clang++`).
